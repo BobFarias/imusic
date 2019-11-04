@@ -1,0 +1,224 @@
+.body{
+  background: #FAFAFA;
+}
+
+nav{
+  height: 80px;
+  border-bottom: 1px solid #424242;
+}
+
+nav span{
+  font-size: 25px;
+}
+
+nav i{
+  margin-right: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* Container da tela inicial */
+
+/* Container-da-apresentacao*/
+.container-head{
+  padding: 50px;
+  color: #212121;
+}
+
+.container-head h1{
+  letter-spacing: -1px;
+}
+
+.container-head h4 {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.container-search input{
+  border-radius: 35px;
+}
+
+.container-search button {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 30px;
+  background-image: linear-gradient(-200deg, #bc4e9c, #f80759);
+  border-color: transparent;
+  transition: 1s;
+}
+
+.container-search button:hover {
+  color: #343a40;
+  background-image: linear-gradient(-200deg, #FAFAFA, #FAFAFA);
+  border-color: linear-gradient(-200deg, #bc4e9c, #f80759);
+}
+
+.container-toptracks {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.container-toptracks h3{
+  font-size: 40px;
+  letter-spacing: -3px;
+}
+
+/* Container dos cards artista- toptracks*/
+.container-card div img{
+  width: 100%;
+}
+
+
+.container-card img{
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 0px #8080805c;
+}
+
+.container-card p{
+  margin-bottom: 0;
+}
+
+
+.container-card p:first-of-type{
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.container-card p:last-of-type{
+  color: #757575;
+  font-size: 14px;
+}
+
+
+/* Style da rolagem horizontal*/
+
+.section-container{
+  display: flex;
+  min-width: 100%;
+  min-height: 200px;
+  overflow-x: auto; 
+}
+      
+.section-container::-webkit-scrollbar {
+  border-radius: 20px;
+  background-image: linear-gradient(-200deg, #bc4e9c, #f80759);
+}
+      
+.section-container::-webkit-scrollbar-thumb {
+  background: #FAFAFA; 
+  border-radius: 20px;
+}
+      
+.card--content {
+  min-width: 200px;
+  margin: 5px;
+}
+
+/* Container com as informações do artista- container-right*/
+.container-info-artist{
+  padding: 0;
+  border-right: 2px solid #F5F5F5;
+}
+
+/* Container com as informações do artista- container-left*/
+.container-album-artist{
+  padding: 0;
+}
+
+/* Row que contem os dados dos albuns do artista pesquisado*/
+.row-album-info div{
+  padding: 0;
+}
+
+
+.container-album-img{
+  justify-content: center;
+  display: flex;
+}
+
+@media only screen and (max-width: 426px) {
+  .container-album-img{
+    justify-content: left;
+  }
+}
+
+.container-video p{
+  margin: 0;
+}
+
+.container-video p:last-of-type{
+  color: #9E9E9E;
+  margin-bottom: 20px;
+}
+
+
+.body-album i{
+  margin-right: 15px;
+  color: #BDBDBD;
+}
+
+.body-album span{
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.container-album{
+  margin: 20px 0px 20px 0px;
+}
+
+.container-album h4{
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.songs-group{
+  margin-top: 20px;
+}
+
+.songs-group li {
+    position: relative;
+    font-size: 14px;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: -1px;
+    border-radius: 5px;
+}
+
+.songs-group li:hover {
+  background-image: linear-gradient(-200deg, #bc4e9c, #f80759);
+  color: white;
+  box-shadow: 2px 1px 9px #80808029;
+  cursor: pointer;
+}
+
+.songs-group span:first-of-type{
+  margin-right: 10px;
+}
+
+.previewVideos{
+  width: 90%;
+  border-radius: 20px;
+}
