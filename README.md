@@ -4,7 +4,15 @@ Search the artist from iTunes API and response your top albuns, tracks list and 
 Projeto para exibir dados a partir doinput dos usuário ao pesquisar por seu artista favoritos. Com algumas demonstrações
 de uma lógica e aplicação do Redux para atualizar componentes e renderizar os resultados das pesquisas.
 
-Além disso, foi utilizado o bootstrap para Design in mobile first, agilizando o desenvolvimento.
+#Install
+$ git clone https://github.com/ORG/PROJECT.git
+$ cd PROJECT
+$ npm install
+
+#Start & watch
+$ npm start
+#Simple build for production
+$ npm run build
 
 Screenshoots:
 
@@ -15,5 +23,14 @@ Screenshoots:
 
 
 ![alt text](https://github.com/BobFarias/imusic/blob/master/screenshot2.png)
+
+
+#Languages & tools
+$HTML
+$Bootstrap for some templating.
+$JavaScript
+$React is used for UI.
+$CSS
+
 
 
