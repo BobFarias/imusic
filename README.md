@@ -8,3 +8,12 @@ Além disso, foi utilizado o bootstrap para Design in mobile first, agilizando o
 
 Screenshoots:
 
+![alt text](https://github.com/BobFarias/imusic/blob/master/screenshot.png)
+
+
+![alt text](https://github.com/BobFarias/imusic/blob/master/screenshot1.png)
+
+
+![alt text](https://github.com/BobFarias/imusic/blob/master/screenshot2.png)
+
+
