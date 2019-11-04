@@ -42,26 +42,25 @@ export default class Search extends Component {
                         .then(res => {
                             //concatenando os resultados no state de songsAlbum
                             this.setState({songsAlbum:[...this.state.songsAlbum, res.data]});
-                        });
 
-                        //get dos vídeos do artista
-                        axios.get('https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?term='+artist.artistName+'&entity=musicVideo&limit=5')
-                        .then(res => {
+                             //get dos vídeos do artista
+                            axios.get('https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?term='+artist.artistName+'&entity=musicVideo&limit=5')
+                            .then(res => {
 
-                            this.setState({videoArtist: res.data});
-                            
-                            //declarando o type que será enviado pelo dispatch e novos state para serem atualizados
-                            dispatch({
-                                type: 'SEARCH_ARTIST',
-                                payload: this.state.data,
-                                artistName: artist.artistName,
-                                songsArtist: this.state.songsAlbum,
-                                videoArtist: this.state.videoArtist,
-                            })
-                            //limpar o input da pesquisa
-                            this.setState({name: ''});
-                        });
-                        
+                                this.setState({videoArtist: res.data});
+                                
+                                //declarando o type que será enviado pelo dispatch e novos state para serem atualizados
+                                dispatch({
+                                    type: 'SEARCH_ARTIST',
+                                    payload: this.state.data,
+                                    artistName: artist.artistName,
+                                    songsArtist: this.state.songsAlbum,
+                                    videoArtist: this.state.videoArtist,
+                                })
+                                //limpar o input da pesquisa
+                                this.setState({name: ''});
+                            });
+                        });                        
                         
                     } else{
                         return
