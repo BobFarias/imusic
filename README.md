@@ -5,14 +5,14 @@ Projeto para exibir dados a partir doinput dos usuário ao pesquisar por seu art
 de uma lógica e aplicação do Redux para atualizar componentes e renderizar os resultados das pesquisas.
 
 #Install
-$ git clone https://github.com/ORG/PROJECT.git
-$ cd PROJECT
-$ npm install
+```$ git clone https://github.com/BobFarias/imusic.git```
+```$ cd imusic```
+```$ npm install```
 
 #Start & watch
-$ npm start
+```$ npm start```
 #Simple build for production
-$ npm run build
+```$ npm run build```
 
 Screenshoots:
 
@@ -26,11 +26,11 @@ Screenshoots:
 
 
 #Languages & tools
-$HTML
-$Bootstrap for some templating.
-$JavaScript
-$React is used for UI.
-$CSS
+##$HTML
+##$Bootstrap for some templating.
+##$JavaScript
+##$React is used for UI.
+##$CSS
 
 
 
