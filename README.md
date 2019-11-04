@@ -26,11 +26,11 @@ de uma lógica e aplicação do Redux para atualizar componentes e renderizar os
 
 
 # Languages & tools
- HTML
- Bootstrap for some templating.
- JavaScript
- React is used for UI.
- CSS
+- HTML
+- Bootstrap for some templating.
+- JavaScript
+- React is used for UI.
+- CSS
 
 
 
